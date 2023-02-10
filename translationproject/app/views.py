@@ -3,7 +3,7 @@ from django.utils.translation import gettext as _
 
 
 def index(request):
-    example_sentence = 'Welcome to my site.'
+    example_sentence = _('Welcome to my site.')
 
     # example_variable = _(example_sentence)
 
