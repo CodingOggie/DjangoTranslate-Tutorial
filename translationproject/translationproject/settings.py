@@ -123,7 +123,3 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LANGUAGES = [
-    ('lt', _('Lithuanian')),
-    ('en', _('English')),
-]
