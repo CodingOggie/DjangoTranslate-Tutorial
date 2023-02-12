@@ -1,11 +1,9 @@
 from django.db import models
-# from django.utils.translation import gettext as _
-from django.utils.translation import gettext_lazy as _
 
 
 class Person(models.Model):
     name = models.CharField(
-        _('Name'), max_length=200, help_text='Input book\'s genre (for example: detective)')
+        ('Name'), max_length=200, help_text='Input book\'s genre (for example: detective)')
     author = models.ForeignKey(
         'School', on_delete=models.SET_NULL, null=True)
 
